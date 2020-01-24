@@ -1,0 +1,210 @@
+{
+  "evaluationTable": "Test_Abbruckriterium",
+  "gases": [
+    {
+      "gas": "Greenhouse Gases",
+      "startTime": "2020-01-14T17:29:19.4051693+01:00",
+      "duration": "00:00:00",
+      "monteCarloStopCriterion": "AverageChangeBelowThreshold",
+      "monteCarloIterationCount": 11,
+      "emissions": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "timeSeries": [
+        {
+          "id": "#8609",
+          "legend": "abort_criterion;normal;one;activity data",
+          "year": 2010,
+          "value": 10.0,
+          "distribution": "Normal",
+          "lowerUncertainty": 0.0,
+          "upperUncertainty": 0.0,
+          "values": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "id": "#8609",
+          "legend": "abort_criterion;normal;one;activity data",
+          "year": 1990,
+          "value": 10.0,
+          "distribution": "Normal",
+          "lowerUncertainty": 0.0,
+          "upperUncertainty": 0.0,
+          "values": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "id": "#8610",
+          "legend": "abort_criterion;normal;one;co2;emission factor",
+          "year": 2010,
+          "value": 10.0,
+          "distribution": "Normal",
+          "lowerUncertainty": 0.0,
+          "upperUncertainty": 0.0,
+          "values": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "id": "#8610",
+          "legend": "abort_criterion;normal;one;co2;emission factor",
+          "year": 1990,
+          "value": 10.0,
+          "distribution": "Normal",
+          "lowerUncertainty": 0.0,
+          "upperUncertainty": 0.0,
+          "values": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "category1": "Test Abbruchkriterium",
+          "category2": "",
+          "emissions": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "iterationValuesAr": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "iterationValuesEf": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "iterationValuesEm": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "timeSeriesTuple": [
+            {
+              "directEmission": false,
+              "idAr": "#8609",
+              "legendAr": "abort_criterion;normal;one;activity data",
+              "idEf": "#8610",
+              "legendEf": "abort_criterion;normal;one;co2;emission factor",
+              "idEm": "#8611",
+              "legendEm": "abort_criterion;normal;one;co2;emission",
+              "emissions": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "emissionsCo2Eq": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
